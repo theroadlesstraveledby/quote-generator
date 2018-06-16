@@ -1,0 +1,91 @@
+body {
+   background-color: mintcream;
+}
+
+
+h1 {
+   color: white;
+   font-size: 60px;
+   text-align: center;
+   font-family: Courier;
+   text-shadow: 1px 1px 2px lightblue, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+h2 {
+   color: slateblue;
+   font-size: 20px;
+   text-align: center;
+   font-family: Courier;
+}
+
+p {
+   color: purple;
+   font-size: 20px;
+   padding: 10px 5px 5px 20px;
+}
+
+button {
+   background: red;
+   border-radius: 25px;
+   font-size: 25px;
+   color: white;
+   padding: 10px 10px 10px 10px;
+   margin-left: 480px;
+}
+
+button:hover {
+   background: green;
+}
+
+div {
+   background-color: purple;
+   color: white;
+   border: 2px solid orange;
+   padding: 10px 15px 15px 10px;
+   margin: 20px;
+   font-size: 20px;
+   font-family: Courier New;
+}
+
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width:250px;
+   height: auto;
+}
+
+
+.slider {
+   width: 500px;
+   height: 300px;
+   background: url(images/forest.jpg);
+   margin: 10px auto;
+   animation: slide 15s infinite;
+}
+
+@keyframes slide {
+
+   25%{
+   background: url(images/forest.jpg);
+}
+
+   50%{
+   background: url(images/beach.jpg);
+}
+
+   75%{
+   background: url(images/lake.jpg);
+}
+
+   100%{
+   background: url(images/galaxy.jpg);
+}
+}
+
+
+
+
+
+
